@@ -299,7 +299,7 @@ section #banner_productImg {
   margin: 0;
   padding: 0;
   /* bottom: 91%; */
-  top: 4%;
+  top: -2%;
   width: 341px;
   grid-area: bannerProductImg;
   position: relative;
