@@ -16,7 +16,7 @@ padding:0;
 
 
 #container {
-  background-color: ghostwhite;
+  background-color: white;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 10% 65% 20% 5%;
@@ -223,7 +223,7 @@ div#sediv1 {
   margin-left: auto;
   background-size: 100%;
   /* grid-area: badgeImg; */
-  background-image: url(https://www.iconsdb.com/icons/preview/black/circle-xxl.png);
+  background-image: url(images/black_circle.png);
   background-repeat: no-repeat;
   margin-right: auto;
   width: 125px;
@@ -235,13 +235,15 @@ div#sediv1 {
 
 #hundra {
 
-  text-align: center;
-      /* left: 10px; */
-      margin: 0;
-      z-index: 5555;
-      color: white;
-      top: 14px;
-      position: relative;
+  font-size: 16px;
+    text-align: center;
+    /* left: 10px; */
+    margin: 0;
+    z-index: 5555;
+    color: white;
+    top: 12px;
+    position: relative;
+
 
 }
 
@@ -255,6 +257,41 @@ div#sediv1 {
       font-size: 14px;
       text-transform: uppercase;
 }
+
+
+
+#slogan1Txt {
+
+visibility:hidden;
+  position: relative;
+}
+
+#slogan1Txt::after {
+
+  font-size: 12px;
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 30px;
+      content: "Balance";
+      font-weight: bolder;
+      font-family: arial;
+}
+
+#slogan1Txt::before {
+
+  font-size: 12px;
+      visibility: visible;
+      position: absolute;
+      top: 23px;
+      left: 28px;
+      content: "& restore";
+      font-weight: 100;
+
+}
+
+
+
 
 section #banner_productImg {
   right: 80px;
@@ -287,7 +324,11 @@ div#sediv2 {
   grid-area: sediv1b;
   position: relative;
 
+
 }
+
+
+
 
 #sediv2 h2 {
 
@@ -299,7 +340,11 @@ div#sediv2 {
   font-family: arial;
   padding: 5px;
 
+
+
 }
+
+
 
 #sediv2 p:nth-child(2){
 
