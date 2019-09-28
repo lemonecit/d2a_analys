@@ -223,7 +223,7 @@ div#sediv1 {
   margin-left: auto;
   background-size: 100%;
   /* grid-area: badgeImg; */
-  background-image: url(images/black_circle.png);
+  background-image: url(../images/black_circle.pngG);
   background-repeat: no-repeat;
   margin-right: auto;
   width: 125px;
